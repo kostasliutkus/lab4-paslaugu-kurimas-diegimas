@@ -1,15 +1,16 @@
 ﻿namespace Clients;
 
-using Microsoft.Extensions.DependencyInjection;
-
-using SimpleRpc.Serialization.Hyperion;
-using SimpleRpc.Transports;
-using SimpleRpc.Transports.Http.Client;
+using System.Net.Http;
 
 using NLog;
 
 using Services;
 
+
+
+/// <summary>
+/// Referee Client
+/// </summary>
 class Client
 {
 	/// <summary>
@@ -67,23 +68,7 @@ class Client
 		{
 			try {
 				//connect to the server, get service client proxy
-				var sc = new ServiceCollection();
-				sc
-					.AddSimpleRpcClient(
-						"TrackService", //must be same as on line 86
-						new HttpClientTransportOptions
-						{
-							Url = "http://127.0.0.1:5000/simplerpc",
-							Serializer = "HyperionMessageSerializer"
-						}
-					)
-					.AddSimpleRpcHyperionSerializer();
-
-				sc.AddSimpleRpcProxy<ITrackService>("TrackService"); //must be same as on line 77
-
-				var sp = sc.BuildServiceProvider();
-
-				var track = sp.GetService<ITrackService>();
+				var track = new TrackClient("http://127.0.0.1:5000", new HttpClient());
 
 				Thread.Sleep(500 + rnd.Next(1500));
 				
@@ -96,7 +81,7 @@ class Client
 					SURNAMES[rnd.Next(SURNAMES.Count)];
 
 				//get unique client id
-				referee.RefereeId = track.GetRefereeUniqueId();
+				referee.RefereeId = track.GetUniqueRefereeId();
 				
 				//log identity data
 				mLog.Info($"I am Referee {referee.RefereeId}, Name. {referee.RefereeNameSurname}.");
