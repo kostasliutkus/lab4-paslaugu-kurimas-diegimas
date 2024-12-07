@@ -1,0 +1,44 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Track",
+            "type": "coreclr",
+            "request": "launch",           
+            "preLaunchTask": "build-Track",
+            "program": "${workspaceFolder}/Track/bin/Debug/net8.0/Track.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Track",
+            "console": "externalTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Runner",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-Runner",
+            "program": "${workspaceFolder}/Runner/bin/Debug/net8.0/Runner.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Runner",
+            "console": "externalTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Referee",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-Referee",
+            "program": "${workspaceFolder}/Referee/bin/Debug/net8.0/Referee.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Referee",
+            "console": "externalTerminal",
+            "stopAtEntry": false
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Visas Projektas",
+            "configurations": ["Track","Runner","Referee"]
+        }
+    ]
+}
