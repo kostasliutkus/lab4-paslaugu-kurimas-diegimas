@@ -1,14 +1,13 @@
 ﻿namespace Clients;
 
-using NLog;
-using Grpc.Net.Client;
+using System.Net.Http;
 
-//this comes from GRPC generated code
+using NLog;
+
 using Services;
 
-
 /// <summary>
-/// Client example.
+/// Runner Client
 /// </summary>
 class Client
 {
@@ -67,8 +66,7 @@ class Client
 		{
 			try {
 				//connect to the server, get service client proxy
-				var channel = GrpcChannel.ForAddress("http://127.0.0.1:5000");
-				var track = new Track.TrackClient(channel);
+				var track = new TrackClient("http://127.0.0.1:5002", new HttpClient());
 
 				Thread.Sleep(500 + rnd.Next(1500));
 				//initialize car descriptor
@@ -80,7 +78,7 @@ class Client
 					SURNAMES[rnd.Next(SURNAMES.Count)];
 
 				//get unique client id
-				runner.RunnerId = track.GetRunnerUniqueId(new Empty()).Value;
+				runner.RunnerId = track.GetUniqueRunnerId();
 				
 				//log identity data
 				mLog.Info($"I am a runner {runner.RunnerId}, name {runner.RunnerNameSurname}.");
@@ -89,17 +87,13 @@ class Client
 				while(true)
 				{
 					Thread.Sleep(500 + rnd.Next(1500));
-					if(track.GetTrackState(new Empty()).Value==TrackState.Running)
+					if(track.GetTrackState()==TrackState.Running)
 					{
 						Thread.Sleep(500 + rnd.Next(1500));
 						var random = new Random();
 						double ranDistanceChange = random.NextDouble() * 4;
 						// send distance to server
-						var input = new Services.AddDistanceChangeInput{
-							Runner = runner,
-							Distance = new DoubleMsg {Value = ranDistanceChange}
-						};
-						bool result = track.AddDistanceChange(input).Value;
+						bool result = track.AddDistanceChange(runner.RunnerId,runner.RunnerNameSurname,ranDistanceChange);
 						if(result)
 							mLog.Info($"I am running");
 						else 

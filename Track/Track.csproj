@@ -3,18 +3,11 @@
 		<TargetFramework>net8.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 	</PropertyGroup>
-	<ItemGroup>
-		<Protobuf Include="Protos\service.proto" GrpcServices="server" />
-	</ItemGroup>
+
 	<ItemGroup>
 		<PackageReference Include="NLog" Version="5.3.3"/>
 		<PackageReference Include="SimpleRpc" Version="1.0.0-beta1"/>
 		<PackageReference Include="SimpleRpc.Serialization.Hyperion" Version="1.0.0-beta1"/>
-		<PackageReference Include="Grpc.AspNetCore" Version="2.66.0" />
-		<PackageReference Include="Grpc.Tools" Version="2.67.0">
-			<PrivateAssets>all</PrivateAssets>
-			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-			</PackageReference>
 	</ItemGroup>
 
 	<ItemGroup>

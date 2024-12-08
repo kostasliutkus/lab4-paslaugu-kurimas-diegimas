@@ -33,12 +33,35 @@
             "cwd": "${workspaceFolder}/Referee",
             "console": "externalTerminal",
             "stopAtEntry": false
+        },
+        {
+            "name": "RefereeTranslationLayer",
+            "type": "coreclr",
+            "request": "launch",           
+            "preLaunchTask": "build-RefereeTranslationLayer",
+            "program": "${workspaceFolder}/RefereeTranslationLayer/bin/Debug/net8.0/RefereeTranslationLayer.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/RefereeTranslationLayer",
+            "console": "externalTerminal",
+            "stopAtEntry": false
+        }
+        ,
+        {
+            "name": "RunnerTranslationLayer",
+            "type": "coreclr",
+            "request": "launch",           
+            "preLaunchTask": "build-RunnerTranslationLayer",
+            "program": "${workspaceFolder}/RunnerTranslationLayer/bin/Debug/net8.0/RunnerTranslationLayer.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/RunnerTranslationLayer",
+            "console": "externalTerminal",
+            "stopAtEntry": false
         }
     ],
     "compounds": [
         {
             "name": "Visas Projektas",
-            "configurations": ["Track","Runner","Referee"]
+            "configurations": ["Track","Referee","RefereeTranslationlayer","RunnerTranslationLayer","Runner"]
         }
     ]
 }

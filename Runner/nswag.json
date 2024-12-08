@@ -1,0 +1,19 @@
+{
+	"runtime": "Net80",
+	"documentGenerator": {
+		"fromDocument": {
+			"url": "http://localhost:5002/swagger/v1/swagger.json",
+			"output": null
+		}
+	},
+
+	"codeGenerators": {
+		"openApiToCSharpClient": {
+			"classname" : "TrackClient",
+			"namespace" : "Services",
+			"output" : "TrackClient.cs",
+
+			"generateSyncMethods": true
+		}
+	}
+}

@@ -13,9 +13,9 @@
     <SourceRoot Include="C:\Users\Labas\.nuget\packages\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)nswag.msbuild\14.1.0\buildTransitive\NSwag.MSBuild.props" Condition="Exists('$(NuGetPackageRoot)nswag.msbuild\14.1.0\buildTransitive\NSwag.MSBuild.props')" />
+    <Import Project="$(NuGetPackageRoot)grpc.tools\2.66.0\build\Grpc.Tools.props" Condition="Exists('$(NuGetPackageRoot)grpc.tools\2.66.0\build\Grpc.Tools.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgNSwag_MSBuild Condition=" '$(PkgNSwag_MSBuild)' == '' ">C:\Users\Labas\.nuget\packages\nswag.msbuild\14.1.0</PkgNSwag_MSBuild>
+    <PkgGrpc_Tools Condition=" '$(PkgGrpc_Tools)' == '' ">C:\Users\Labas\.nuget\packages\grpc.tools\2.66.0</PkgGrpc_Tools>
   </PropertyGroup>
 </Project>

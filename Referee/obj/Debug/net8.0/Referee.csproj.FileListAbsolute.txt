@@ -73,79 +73,40 @@ C:\Users\Labas\Desktop\lab1 paslaugu kurimas ir diegimas\lab1-tinklu-kurimas-die
 C:\Users\Labas\Desktop\lab1 paslaugu kurimas ir diegimas\lab1-tinklu-kurimas-diegimas\Referee\obj\Debug\net8.0\Referee.pdb
 C:\Users\Labas\Desktop\lab1 paslaugu kurimas ir diegimas\lab1-tinklu-kurimas-diegimas\Referee\obj\Debug\net8.0\Referee.genruntimeconfig.cache
 C:\Users\Labas\Desktop\lab1 paslaugu kurimas ir diegimas\lab1-tinklu-kurimas-diegimas\Referee\obj\Debug\net8.0\ref\Referee.dll
-C:\Users\Labas\Desktop\test lab2\lab2-paslaugu-kurimas-diegimas-rest\Referee\bin\Debug\net8.0\Referee.exe
-C:\Users\Labas\Desktop\test lab2\lab2-paslaugu-kurimas-diegimas-rest\Referee\bin\Debug\net8.0\Referee.deps.json
-C:\Users\Labas\Desktop\test lab2\lab2-paslaugu-kurimas-diegimas-rest\Referee\bin\Debug\net8.0\Referee.runtimeconfig.json
-C:\Users\Labas\Desktop\test lab2\lab2-paslaugu-kurimas-diegimas-rest\Referee\bin\Debug\net8.0\Referee.dll
-C:\Users\Labas\Desktop\test lab2\lab2-paslaugu-kurimas-diegimas-rest\Referee\bin\Debug\net8.0\Referee.pdb
-C:\Users\Labas\Desktop\test lab2\lab2-paslaugu-kurimas-diegimas-rest\Referee\bin\Debug\net8.0\Newtonsoft.Json.dll
-C:\Users\Labas\Desktop\test lab2\lab2-paslaugu-kurimas-diegimas-rest\Referee\bin\Debug\net8.0\NLog.dll
-C:\Users\Labas\Desktop\test lab2\lab2-paslaugu-kurimas-diegimas-rest\Referee\obj\Debug\net8.0\Referee.csproj.AssemblyReference.cache
-C:\Users\Labas\Desktop\test lab2\lab2-paslaugu-kurimas-diegimas-rest\Referee\obj\Debug\net8.0\Referee.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Labas\Desktop\test lab2\lab2-paslaugu-kurimas-diegimas-rest\Referee\obj\Debug\net8.0\Referee.AssemblyInfoInputs.cache
-C:\Users\Labas\Desktop\test lab2\lab2-paslaugu-kurimas-diegimas-rest\Referee\obj\Debug\net8.0\Referee.AssemblyInfo.cs
-C:\Users\Labas\Desktop\test lab2\lab2-paslaugu-kurimas-diegimas-rest\Referee\obj\Debug\net8.0\Referee.csproj.CoreCompileInputs.cache
-C:\Users\Labas\Desktop\test lab2\lab2-paslaugu-kurimas-diegimas-rest\Referee\obj\Debug\net8.0\Referee.sourcelink.json
-C:\Users\Labas\Desktop\test lab2\lab2-paslaugu-kurimas-diegimas-rest\Referee\obj\Debug\net8.0\Referee.csproj.Up2Date
-C:\Users\Labas\Desktop\test lab2\lab2-paslaugu-kurimas-diegimas-rest\Referee\obj\Debug\net8.0\Referee.dll
-C:\Users\Labas\Desktop\test lab2\lab2-paslaugu-kurimas-diegimas-rest\Referee\obj\Debug\net8.0\refint\Referee.dll
-C:\Users\Labas\Desktop\test lab2\lab2-paslaugu-kurimas-diegimas-rest\Referee\obj\Debug\net8.0\Referee.pdb
-C:\Users\Labas\Desktop\test lab2\lab2-paslaugu-kurimas-diegimas-rest\Referee\obj\Debug\net8.0\Referee.genruntimeconfig.cache
-C:\Users\Labas\Desktop\test lab2\lab2-paslaugu-kurimas-diegimas-rest\Referee\obj\Debug\net8.0\ref\Referee.dll
-C:\Users\Labas\Desktop\test lab2\lab2-paslaugu-kurimas-diegimas-rest\rest\Referee\bin\Debug\net8.0\Referee.exe
-C:\Users\Labas\Desktop\test lab2\lab2-paslaugu-kurimas-diegimas-rest\rest\Referee\bin\Debug\net8.0\Referee.deps.json
-C:\Users\Labas\Desktop\test lab2\lab2-paslaugu-kurimas-diegimas-rest\rest\Referee\bin\Debug\net8.0\Referee.runtimeconfig.json
-C:\Users\Labas\Desktop\test lab2\lab2-paslaugu-kurimas-diegimas-rest\rest\Referee\bin\Debug\net8.0\Referee.dll
-C:\Users\Labas\Desktop\test lab2\lab2-paslaugu-kurimas-diegimas-rest\rest\Referee\bin\Debug\net8.0\Referee.pdb
-C:\Users\Labas\Desktop\test lab2\lab2-paslaugu-kurimas-diegimas-rest\rest\Referee\bin\Debug\net8.0\Newtonsoft.Json.dll
-C:\Users\Labas\Desktop\test lab2\lab2-paslaugu-kurimas-diegimas-rest\rest\Referee\bin\Debug\net8.0\NLog.dll
-C:\Users\Labas\Desktop\test lab2\lab2-paslaugu-kurimas-diegimas-rest\rest\Referee\obj\Debug\net8.0\Referee.csproj.AssemblyReference.cache
-C:\Users\Labas\Desktop\test lab2\lab2-paslaugu-kurimas-diegimas-rest\rest\Referee\obj\Debug\net8.0\Referee.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Labas\Desktop\test lab2\lab2-paslaugu-kurimas-diegimas-rest\rest\Referee\obj\Debug\net8.0\Referee.AssemblyInfoInputs.cache
-C:\Users\Labas\Desktop\test lab2\lab2-paslaugu-kurimas-diegimas-rest\rest\Referee\obj\Debug\net8.0\Referee.AssemblyInfo.cs
-C:\Users\Labas\Desktop\test lab2\lab2-paslaugu-kurimas-diegimas-rest\rest\Referee\obj\Debug\net8.0\Referee.csproj.CoreCompileInputs.cache
-C:\Users\Labas\Desktop\test lab2\lab2-paslaugu-kurimas-diegimas-rest\rest\Referee\obj\Debug\net8.0\Referee.sourcelink.json
-C:\Users\Labas\Desktop\test lab2\lab2-paslaugu-kurimas-diegimas-rest\rest\Referee\obj\Debug\net8.0\Referee.csproj.Up2Date
-C:\Users\Labas\Desktop\test lab2\lab2-paslaugu-kurimas-diegimas-rest\rest\Referee\obj\Debug\net8.0\Referee.dll
-C:\Users\Labas\Desktop\test lab2\lab2-paslaugu-kurimas-diegimas-rest\rest\Referee\obj\Debug\net8.0\refint\Referee.dll
-C:\Users\Labas\Desktop\test lab2\lab2-paslaugu-kurimas-diegimas-rest\rest\Referee\obj\Debug\net8.0\Referee.pdb
-C:\Users\Labas\Desktop\test lab2\lab2-paslaugu-kurimas-diegimas-rest\rest\Referee\obj\Debug\net8.0\Referee.genruntimeconfig.cache
-C:\Users\Labas\Desktop\test lab2\lab2-paslaugu-kurimas-diegimas-rest\rest\Referee\obj\Debug\net8.0\ref\Referee.dll
-C:\Users\Kostas Liutkus\Desktop\lab4-tinklu-diegimas-kurimas\lab4-paslaugu-kurimas-diegimas\Referee\bin\Debug\net8.0\Referee.exe
-C:\Users\Kostas Liutkus\Desktop\lab4-tinklu-diegimas-kurimas\lab4-paslaugu-kurimas-diegimas\Referee\bin\Debug\net8.0\Referee.deps.json
-C:\Users\Kostas Liutkus\Desktop\lab4-tinklu-diegimas-kurimas\lab4-paslaugu-kurimas-diegimas\Referee\bin\Debug\net8.0\Referee.runtimeconfig.json
-C:\Users\Kostas Liutkus\Desktop\lab4-tinklu-diegimas-kurimas\lab4-paslaugu-kurimas-diegimas\Referee\bin\Debug\net8.0\Referee.dll
-C:\Users\Kostas Liutkus\Desktop\lab4-tinklu-diegimas-kurimas\lab4-paslaugu-kurimas-diegimas\Referee\bin\Debug\net8.0\Referee.pdb
-C:\Users\Kostas Liutkus\Desktop\lab4-tinklu-diegimas-kurimas\lab4-paslaugu-kurimas-diegimas\Referee\bin\Debug\net8.0\Newtonsoft.Json.dll
-C:\Users\Kostas Liutkus\Desktop\lab4-tinklu-diegimas-kurimas\lab4-paslaugu-kurimas-diegimas\Referee\bin\Debug\net8.0\NLog.dll
-C:\Users\Kostas Liutkus\Desktop\lab4-tinklu-diegimas-kurimas\lab4-paslaugu-kurimas-diegimas\Referee\obj\Debug\net8.0\Referee.csproj.AssemblyReference.cache
-C:\Users\Kostas Liutkus\Desktop\lab4-tinklu-diegimas-kurimas\lab4-paslaugu-kurimas-diegimas\Referee\obj\Debug\net8.0\Referee.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Kostas Liutkus\Desktop\lab4-tinklu-diegimas-kurimas\lab4-paslaugu-kurimas-diegimas\Referee\obj\Debug\net8.0\Referee.AssemblyInfoInputs.cache
-C:\Users\Kostas Liutkus\Desktop\lab4-tinklu-diegimas-kurimas\lab4-paslaugu-kurimas-diegimas\Referee\obj\Debug\net8.0\Referee.AssemblyInfo.cs
-C:\Users\Kostas Liutkus\Desktop\lab4-tinklu-diegimas-kurimas\lab4-paslaugu-kurimas-diegimas\Referee\obj\Debug\net8.0\Referee.csproj.CoreCompileInputs.cache
-C:\Users\Kostas Liutkus\Desktop\lab4-tinklu-diegimas-kurimas\lab4-paslaugu-kurimas-diegimas\Referee\obj\Debug\net8.0\Referee.sourcelink.json
-C:\Users\Kostas Liutkus\Desktop\lab4-tinklu-diegimas-kurimas\lab4-paslaugu-kurimas-diegimas\Referee\obj\Debug\net8.0\Referee.csproj.Up2Date
-C:\Users\Kostas Liutkus\Desktop\lab4-tinklu-diegimas-kurimas\lab4-paslaugu-kurimas-diegimas\Referee\obj\Debug\net8.0\Referee.dll
-C:\Users\Kostas Liutkus\Desktop\lab4-tinklu-diegimas-kurimas\lab4-paslaugu-kurimas-diegimas\Referee\obj\Debug\net8.0\refint\Referee.dll
-C:\Users\Kostas Liutkus\Desktop\lab4-tinklu-diegimas-kurimas\lab4-paslaugu-kurimas-diegimas\Referee\obj\Debug\net8.0\Referee.pdb
-C:\Users\Kostas Liutkus\Desktop\lab4-tinklu-diegimas-kurimas\lab4-paslaugu-kurimas-diegimas\Referee\obj\Debug\net8.0\Referee.genruntimeconfig.cache
-C:\Users\Kostas Liutkus\Desktop\lab4-tinklu-diegimas-kurimas\lab4-paslaugu-kurimas-diegimas\Referee\obj\Debug\net8.0\ref\Referee.dll
-C:\Users\Labas\Desktop\lab4\lab4-paslaugu-kurimas-diegimas\Referee\bin\Debug\net8.0\Referee.exe
-C:\Users\Labas\Desktop\lab4\lab4-paslaugu-kurimas-diegimas\Referee\bin\Debug\net8.0\Referee.deps.json
-C:\Users\Labas\Desktop\lab4\lab4-paslaugu-kurimas-diegimas\Referee\bin\Debug\net8.0\Referee.runtimeconfig.json
-C:\Users\Labas\Desktop\lab4\lab4-paslaugu-kurimas-diegimas\Referee\bin\Debug\net8.0\Referee.dll
-C:\Users\Labas\Desktop\lab4\lab4-paslaugu-kurimas-diegimas\Referee\bin\Debug\net8.0\Referee.pdb
-C:\Users\Labas\Desktop\lab4\lab4-paslaugu-kurimas-diegimas\Referee\bin\Debug\net8.0\Newtonsoft.Json.dll
-C:\Users\Labas\Desktop\lab4\lab4-paslaugu-kurimas-diegimas\Referee\bin\Debug\net8.0\NLog.dll
-C:\Users\Labas\Desktop\lab4\lab4-paslaugu-kurimas-diegimas\Referee\obj\Debug\net8.0\Referee.csproj.AssemblyReference.cache
-C:\Users\Labas\Desktop\lab4\lab4-paslaugu-kurimas-diegimas\Referee\obj\Debug\net8.0\Referee.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Labas\Desktop\lab4\lab4-paslaugu-kurimas-diegimas\Referee\obj\Debug\net8.0\Referee.AssemblyInfoInputs.cache
-C:\Users\Labas\Desktop\lab4\lab4-paslaugu-kurimas-diegimas\Referee\obj\Debug\net8.0\Referee.AssemblyInfo.cs
-C:\Users\Labas\Desktop\lab4\lab4-paslaugu-kurimas-diegimas\Referee\obj\Debug\net8.0\Referee.csproj.CoreCompileInputs.cache
-C:\Users\Labas\Desktop\lab4\lab4-paslaugu-kurimas-diegimas\Referee\obj\Debug\net8.0\Referee.sourcelink.json
-C:\Users\Labas\Desktop\lab4\lab4-paslaugu-kurimas-diegimas\Referee\obj\Debug\net8.0\Referee.csproj.Up2Date
-C:\Users\Labas\Desktop\lab4\lab4-paslaugu-kurimas-diegimas\Referee\obj\Debug\net8.0\Referee.dll
-C:\Users\Labas\Desktop\lab4\lab4-paslaugu-kurimas-diegimas\Referee\obj\Debug\net8.0\refint\Referee.dll
-C:\Users\Labas\Desktop\lab4\lab4-paslaugu-kurimas-diegimas\Referee\obj\Debug\net8.0\Referee.pdb
-C:\Users\Labas\Desktop\lab4\lab4-paslaugu-kurimas-diegimas\Referee\obj\Debug\net8.0\Referee.genruntimeconfig.cache
-C:\Users\Labas\Desktop\lab4\lab4-paslaugu-kurimas-diegimas\Referee\obj\Debug\net8.0\ref\Referee.dll
+C:\Users\Labas\Desktop\lab1-tinklu-kurimas-diegimas-main\lab1-tinklu-kurimas-diegimas-main\Referee\bin\Debug\net8.0\Referee.exe
+C:\Users\Labas\Desktop\lab1-tinklu-kurimas-diegimas-main\lab1-tinklu-kurimas-diegimas-main\Referee\bin\Debug\net8.0\Referee.deps.json
+C:\Users\Labas\Desktop\lab1-tinklu-kurimas-diegimas-main\lab1-tinklu-kurimas-diegimas-main\Referee\bin\Debug\net8.0\Referee.runtimeconfig.json
+C:\Users\Labas\Desktop\lab1-tinklu-kurimas-diegimas-main\lab1-tinklu-kurimas-diegimas-main\Referee\bin\Debug\net8.0\Referee.dll
+C:\Users\Labas\Desktop\lab1-tinklu-kurimas-diegimas-main\lab1-tinklu-kurimas-diegimas-main\Referee\bin\Debug\net8.0\Referee.pdb
+C:\Users\Labas\Desktop\lab1-tinklu-kurimas-diegimas-main\lab1-tinklu-kurimas-diegimas-main\Referee\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\Labas\Desktop\lab1-tinklu-kurimas-diegimas-main\lab1-tinklu-kurimas-diegimas-main\Referee\bin\Debug\net8.0\Ceras.dll
+C:\Users\Labas\Desktop\lab1-tinklu-kurimas-diegimas-main\lab1-tinklu-kurimas-diegimas-main\Referee\bin\Debug\net8.0\Hyperion.dll
+C:\Users\Labas\Desktop\lab1-tinklu-kurimas-diegimas-main\lab1-tinklu-kurimas-diegimas-main\Referee\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\Labas\Desktop\lab1-tinklu-kurimas-diegimas-main\lab1-tinklu-kurimas-diegimas-main\Referee\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Labas\Desktop\lab1-tinklu-kurimas-diegimas-main\lab1-tinklu-kurimas-diegimas-main\Referee\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Labas\Desktop\lab1-tinklu-kurimas-diegimas-main\lab1-tinklu-kurimas-diegimas-main\Referee\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Labas\Desktop\lab1-tinklu-kurimas-diegimas-main\lab1-tinklu-kurimas-diegimas-main\Referee\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Labas\Desktop\lab1-tinklu-kurimas-diegimas-main\lab1-tinklu-kurimas-diegimas-main\Referee\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Labas\Desktop\lab1-tinklu-kurimas-diegimas-main\lab1-tinklu-kurimas-diegimas-main\Referee\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Labas\Desktop\lab1-tinklu-kurimas-diegimas-main\lab1-tinklu-kurimas-diegimas-main\Referee\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Labas\Desktop\lab1-tinklu-kurimas-diegimas-main\lab1-tinklu-kurimas-diegimas-main\Referee\bin\Debug\net8.0\Microsoft.Extensions.Http.dll
+C:\Users\Labas\Desktop\lab1-tinklu-kurimas-diegimas-main\lab1-tinklu-kurimas-diegimas-main\Referee\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\Labas\Desktop\lab1-tinklu-kurimas-diegimas-main\lab1-tinklu-kurimas-diegimas-main\Referee\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Labas\Desktop\lab1-tinklu-kurimas-diegimas-main\lab1-tinklu-kurimas-diegimas-main\Referee\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Labas\Desktop\lab1-tinklu-kurimas-diegimas-main\lab1-tinklu-kurimas-diegimas-main\Referee\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Labas\Desktop\lab1-tinklu-kurimas-diegimas-main\lab1-tinklu-kurimas-diegimas-main\Referee\bin\Debug\net8.0\NLog.dll
+C:\Users\Labas\Desktop\lab1-tinklu-kurimas-diegimas-main\lab1-tinklu-kurimas-diegimas-main\Referee\bin\Debug\net8.0\SimpleRpc.dll
+C:\Users\Labas\Desktop\lab1-tinklu-kurimas-diegimas-main\lab1-tinklu-kurimas-diegimas-main\Referee\bin\Debug\net8.0\SimpleRpc.Serialization.Hyperion.dll
+C:\Users\Labas\Desktop\lab1-tinklu-kurimas-diegimas-main\lab1-tinklu-kurimas-diegimas-main\Referee\bin\Debug\net8.0\TrackContract.dll
+C:\Users\Labas\Desktop\lab1-tinklu-kurimas-diegimas-main\lab1-tinklu-kurimas-diegimas-main\Referee\bin\Debug\net8.0\TrackContract.pdb
+C:\Users\Labas\Desktop\lab1-tinklu-kurimas-diegimas-main\lab1-tinklu-kurimas-diegimas-main\Referee\obj\Debug\net8.0\Referee.csproj.AssemblyReference.cache
+C:\Users\Labas\Desktop\lab1-tinklu-kurimas-diegimas-main\lab1-tinklu-kurimas-diegimas-main\Referee\obj\Debug\net8.0\Referee.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Labas\Desktop\lab1-tinklu-kurimas-diegimas-main\lab1-tinklu-kurimas-diegimas-main\Referee\obj\Debug\net8.0\Referee.AssemblyInfoInputs.cache
+C:\Users\Labas\Desktop\lab1-tinklu-kurimas-diegimas-main\lab1-tinklu-kurimas-diegimas-main\Referee\obj\Debug\net8.0\Referee.AssemblyInfo.cs
+C:\Users\Labas\Desktop\lab1-tinklu-kurimas-diegimas-main\lab1-tinklu-kurimas-diegimas-main\Referee\obj\Debug\net8.0\Referee.csproj.CoreCompileInputs.cache
+C:\Users\Labas\Desktop\lab1-tinklu-kurimas-diegimas-main\lab1-tinklu-kurimas-diegimas-main\Referee\obj\Debug\net8.0\Referee.csproj.Up2Date
+C:\Users\Labas\Desktop\lab1-tinklu-kurimas-diegimas-main\lab1-tinklu-kurimas-diegimas-main\Referee\obj\Debug\net8.0\Referee.dll
+C:\Users\Labas\Desktop\lab1-tinklu-kurimas-diegimas-main\lab1-tinklu-kurimas-diegimas-main\Referee\obj\Debug\net8.0\refint\Referee.dll
+C:\Users\Labas\Desktop\lab1-tinklu-kurimas-diegimas-main\lab1-tinklu-kurimas-diegimas-main\Referee\obj\Debug\net8.0\Referee.pdb
+C:\Users\Labas\Desktop\lab1-tinklu-kurimas-diegimas-main\lab1-tinklu-kurimas-diegimas-main\Referee\obj\Debug\net8.0\Referee.genruntimeconfig.cache
+C:\Users\Labas\Desktop\lab1-tinklu-kurimas-diegimas-main\lab1-tinklu-kurimas-diegimas-main\Referee\obj\Debug\net8.0\ref\Referee.dll

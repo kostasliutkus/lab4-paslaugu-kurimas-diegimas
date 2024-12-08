@@ -1,0 +1,167 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Labas\\Desktop\\lab4\\lab4-paslaugu-kurimas-diegimas\\RefereeTranslationLayer\\RefereeTranslationLayer.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Labas\\Desktop\\lab4\\lab4-paslaugu-kurimas-diegimas\\RefereeTranslationLayer\\RefereeTranslationLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Labas\\Desktop\\lab4\\lab4-paslaugu-kurimas-diegimas\\RefereeTranslationLayer\\RefereeTranslationLayer.csproj",
+        "projectName": "RefereeTranslationLayer",
+        "projectPath": "C:\\Users\\Labas\\Desktop\\lab4\\lab4-paslaugu-kurimas-diegimas\\RefereeTranslationLayer\\RefereeTranslationLayer.csproj",
+        "packagesPath": "C:\\Users\\Labas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Labas\\Desktop\\lab4\\lab4-paslaugu-kurimas-diegimas\\RefereeTranslationLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Labas\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Labas\\Desktop\\lab4\\lab4-paslaugu-kurimas-diegimas\\TrackContract\\TrackContract.csproj": {
+                "projectPath": "C:\\Users\\Labas\\Desktop\\lab4\\lab4-paslaugu-kurimas-diegimas\\TrackContract\\TrackContract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.27.0, )"
+            },
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.66.0, )"
+            },
+            "Grpc.Core": {
+              "target": "Package",
+              "version": "[2.46.6, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.67.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.3.3, )"
+            },
+            "SimpleRpc": {
+              "target": "Package",
+              "version": "[1.0.0-beta1, )"
+            },
+            "SimpleRpc.Serialization.Hyperion": {
+              "target": "Package",
+              "version": "[1.0.0-beta1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Labas\\Desktop\\lab4\\lab4-paslaugu-kurimas-diegimas\\TrackContract\\TrackContract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Labas\\Desktop\\lab4\\lab4-paslaugu-kurimas-diegimas\\TrackContract\\TrackContract.csproj",
+        "projectName": "TrackContract",
+        "projectPath": "C:\\Users\\Labas\\Desktop\\lab4\\lab4-paslaugu-kurimas-diegimas\\TrackContract\\TrackContract.csproj",
+        "packagesPath": "C:\\Users\\Labas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Labas\\Desktop\\lab4\\lab4-paslaugu-kurimas-diegimas\\TrackContract\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Labas\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
