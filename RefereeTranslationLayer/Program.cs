@@ -76,7 +76,7 @@ public class Server
 		builder.Services.AddGrpc();
 
 		//add the actual services
-		builder.Services.AddSingleton(new TranslationLayer.TrackServiceImpl());	
+		builder.Services.AddSingleton(new TranslationLayer.TrackTranslationLayer());	
 
 		//build the server
 		var app = builder.Build();
@@ -85,7 +85,7 @@ public class Server
 		app.UseRouting();
 
 		//configure routes
-		app.MapGrpcService<TranslationLayer.TrackServiceImpl>();
+		app.MapGrpcService<TranslationLayer.TrackTranslationLayer>();
 		
 		//run the server
 		app.Run();

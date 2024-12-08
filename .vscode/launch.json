@@ -61,7 +61,7 @@
     "compounds": [
         {
             "name": "Visas Projektas",
-            "configurations": ["Track","Referee","RefereeTranslationlayer","RunnerTranslationLayer","Runner"]
+            "configurations": ["Track","Referee","RunnerTranslationLayer","Runner","RefereeTranslationLayer"]
         }
     ]
 }
