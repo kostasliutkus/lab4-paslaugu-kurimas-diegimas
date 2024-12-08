@@ -9,7 +9,7 @@ using SimpleRpc.Transports.Http.Server;
 using SimpleRpc.Serialization.Hyperion;
 
 using Services;
-
+using TrackContractServices;
 
 public class Server
 {
@@ -83,14 +83,25 @@ public class Server
 
 		//add our custom services
 		builder.Services
-			//.AddScoped<ITrackService, TrackService>();  //instance-per-request, AddTransient would result in the same
 			.AddSingleton<ITrackService>(new TrackService());   //singleton
+
+		//add support for GRPC services
+		builder.Services.AddGrpc();
+
+		//add the actual services
+		builder.Services.AddSingleton(new GrpcTrackService());	
 
 		//build the server
 		var app = builder.Build();
 
 		//add SimpleRPC middleware
 		app.UseSimpleRpcServer();
+
+		//turn on request routing
+		app.UseRouting();
+
+		//configure routes
+		app.MapGrpcService<TrackService>();
 
 		//run the server
 		app.Run();

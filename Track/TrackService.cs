@@ -1,6 +1,6 @@
 namespace Servers;
 
-using Services;
+using TrackContractServices;
 
 /// <summary>
 /// Service
@@ -33,7 +33,7 @@ public class TrackService : ITrackService
 	/// <returns>Current light state.</returns>				
 	public TrackState GetTrackState()
     {
-		return mLogic.GetTrackState();
+		return (TrackState)mLogic.GetTrackState();
     }
 	/// <summary>
 	/// Send Vote to Server
@@ -50,8 +50,14 @@ public class TrackService : ITrackService
 	/// <param name="runner">runner that generates distance</param>
 	/// <param name="distance">generated amount</param>
 	/// <returns>returns true if success and false if failure</returns>
-	public bool AddDistanceChange(RunnerDesc runner,double distance) 
+	public bool AddDistanceChange(RunnerDesc runner, double distance) 
 	{
-		return mLogic.AddDistanceChange(runner,distance);
+		var servicesRunner = new Services.RunnerDesc
+		{
+			RunnerId = runner.RunnerId,
+			RunnerNameSurname = runner.RunnerNameSurname,
+			// Map other properties as needed
+		};
+		return mLogic.AddDistanceChange(servicesRunner, distance);
 	}
 }

@@ -445,19 +445,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kostas Liutkus\\.nuget\\packages\\": {}
+    "C:\\Users\\Labas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kostas Liutkus\\Desktop\\lab4-tinklu-diegimas-kurimas\\lab4-paslaugu-kurimas-diegimas\\Referee\\Referee.csproj",
+      "projectUniqueName": "C:\\Users\\Labas\\Desktop\\lab4\\lab4-paslaugu-kurimas-diegimas\\Referee\\Referee.csproj",
       "projectName": "Referee",
-      "projectPath": "C:\\Users\\Kostas Liutkus\\Desktop\\lab4-tinklu-diegimas-kurimas\\lab4-paslaugu-kurimas-diegimas\\Referee\\Referee.csproj",
-      "packagesPath": "C:\\Users\\Kostas Liutkus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kostas Liutkus\\Desktop\\lab4-tinklu-diegimas-kurimas\\lab4-paslaugu-kurimas-diegimas\\Referee\\obj\\",
+      "projectPath": "C:\\Users\\Labas\\Desktop\\lab4\\lab4-paslaugu-kurimas-diegimas\\Referee\\Referee.csproj",
+      "packagesPath": "C:\\Users\\Labas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Labas\\Desktop\\lab4\\lab4-paslaugu-kurimas-diegimas\\Referee\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Kostas Liutkus\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Labas\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -479,9 +479,8 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+        "auditMode": "direct"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -513,30 +512,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.11, 8.0.11]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[8.0.11, 8.0.11]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.11, 8.0.11]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.11, 8.0.11]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
