@@ -74,7 +74,7 @@ public class Server
 			opts.Listen(IPAddress.Loopback, 5002);
 		});
 
-		//add and configure swagger documentation generator (http://127.0.0.1:5000/swagger/)
+		//add and configure swagger documentation generator (http://127.0.0.1:5002/swagger/)
 		
 
 		//turn on support for web api controllers
@@ -96,16 +96,16 @@ public class Server
 			});
 		});
 
-        builder.Services.AddSimpleRpcClient(
-        "TrackService",
-        new HttpClientTransportOptions
-        {
-            Url = "http://127.0.0.1:5000/simplerpc",
-            Serializer = "HyperionMessageSerializer"
-        }
-        ).AddSimpleRpcHyperionSerializer();
-        builder.Services.AddSimpleRpcProxy<ITrackService>("TrackService");
-
+        // builder.Services.AddSimpleRpcClient(
+        // "TrackService",
+        // new HttpClientTransportOptions
+        // {
+        //     Url = "http://127.0.0.1:5000/simplerpc",
+        //     Serializer = "HyperionMessageSerializer"
+        // }
+        // ).AddSimpleRpcHyperionSerializer();
+        // builder.Services.AddSimpleRpcProxy<ITrackService>("TrackService");
+		
         builder.Services.AddSwaggerGen(opts => {
             //include code comments in swagger documentation
             var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";

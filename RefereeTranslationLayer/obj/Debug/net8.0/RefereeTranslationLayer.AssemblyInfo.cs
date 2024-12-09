@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RefereeTranslationLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d3a241b595405a1d0ea07e2acf81ff8ee5ac13f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f37711f1ed469c7fdac306347cda4416340eee20")]
 [assembly: System.Reflection.AssemblyProductAttribute("RefereeTranslationLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RefereeTranslationLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

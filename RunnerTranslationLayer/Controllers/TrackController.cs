@@ -15,14 +15,34 @@ public class TrackController : ControllerBase
 	/// Service logic. This is created in Server.StartServer() and received through DI in constructor.
 	/// </summary>
 	private readonly ITrackService? mLogic;
+	
 
 	/// <summary>
 	/// Constructor
 	/// </summary>
 	/// <param name="logic">Logic to use. This will get passed through DI.</param>
-	public TrackController(ITrackService logic)
-	{   
-        mLogic = logic;
+	public TrackController()
+	{
+        var sc = new ServiceCollection();
+
+        // SimpleRPC connection
+        sc
+            .AddSimpleRpcClient(
+                "TrackService",
+                new HttpClientTransportOptions
+                {
+                    Url = "http://127.0.0.1:5000/simplerpc",
+                    Serializer = "HyperionMessageSerializer"
+                }
+            )
+            .AddSimpleRpcHyperionSerializer();
+
+        sc.AddSimpleRpcProxy<ITrackService>("TrackService");
+
+        var sp = sc.BuildServiceProvider();
+
+        // Get and return service
+        mLogic = sp.GetService<ITrackService>();
 	}
 	/// <summary>
     /// This is a dummy endpoint to ensure RefereeDesc is included in Swagger.
@@ -46,6 +66,7 @@ public class TrackController : ControllerBase
     [HttpGet("/exampleRunner")]
     public ActionResult<RunnerDesc> GetExampleRunner()
     {
+		
         // Returning a dummy RefereeDesc object just to include it in the Swagger schema
         return new RunnerDesc
         {

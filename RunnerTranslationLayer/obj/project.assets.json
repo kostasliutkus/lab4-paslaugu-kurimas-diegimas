@@ -6346,19 +6346,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Labas\\.nuget\\packages\\": {}
+    "C:\\Users\\Kostas Liutkus\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Labas\\Desktop\\lab4\\lab4-paslaugu-kurimas-diegimas\\RunnerTranslationLayer\\RunnerTranslationLayer.csproj",
+      "projectUniqueName": "C:\\Users\\Kostas Liutkus\\Desktop\\lab4-tinklu-diegimas-kurimas\\lab4-paslaugu-kurimas-diegimas\\RunnerTranslationLayer\\RunnerTranslationLayer.csproj",
       "projectName": "RunnerTranslationLayer",
-      "projectPath": "C:\\Users\\Labas\\Desktop\\lab4\\lab4-paslaugu-kurimas-diegimas\\RunnerTranslationLayer\\RunnerTranslationLayer.csproj",
-      "packagesPath": "C:\\Users\\Labas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Labas\\Desktop\\lab4\\lab4-paslaugu-kurimas-diegimas\\RunnerTranslationLayer\\obj\\",
+      "projectPath": "C:\\Users\\Kostas Liutkus\\Desktop\\lab4-tinklu-diegimas-kurimas\\lab4-paslaugu-kurimas-diegimas\\RunnerTranslationLayer\\RunnerTranslationLayer.csproj",
+      "packagesPath": "C:\\Users\\Kostas Liutkus\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kostas Liutkus\\Desktop\\lab4-tinklu-diegimas-kurimas\\lab4-paslaugu-kurimas-diegimas\\RunnerTranslationLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Labas\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Kostas Liutkus\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -6370,8 +6370,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Labas\\Desktop\\lab4\\lab4-paslaugu-kurimas-diegimas\\TrackContract\\TrackContract.csproj": {
-              "projectPath": "C:\\Users\\Labas\\Desktop\\lab4\\lab4-paslaugu-kurimas-diegimas\\TrackContract\\TrackContract.csproj"
+            "C:\\Users\\Kostas Liutkus\\Desktop\\lab4-tinklu-diegimas-kurimas\\lab4-paslaugu-kurimas-diegimas\\TrackContract\\TrackContract.csproj": {
+              "projectPath": "C:\\Users\\Kostas Liutkus\\Desktop\\lab4-tinklu-diegimas-kurimas\\lab4-paslaugu-kurimas-diegimas\\TrackContract\\TrackContract.csproj"
             }
           }
         }
@@ -6384,8 +6384,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
-      }
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -6419,6 +6420,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.11, 8.0.11]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[8.0.11, 8.0.11]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.11, 8.0.11]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.11, 8.0.11]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -6427,8 +6446,30 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1904",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Text.Encodings.Web' 4.5.0 has a known critical severity vulnerability, https://github.com/advisories/GHSA-ghhp-997w-qr28",
+      "libraryId": "System.Text.Encodings.Web",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Text.RegularExpressions' 4.3.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-cmhx-cq75-c4mj",
+      "libraryId": "System.Text.RegularExpressions",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

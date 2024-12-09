@@ -76,7 +76,8 @@ public class Server
 		builder.Services.AddGrpc();
 
 		//add the actual services
-		builder.Services.AddSingleton(new TranslationLayer.TrackTranslationLayer());	
+		// builder.Services.AddSingleton(new TranslationLayer.TrackTranslationLayer());
+		builder.Services.AddTransient(typeof(TranslationLayer.TrackTranslationLayer));	
 
 		//build the server
 		var app = builder.Build();
@@ -89,6 +90,5 @@ public class Server
 		
 		//run the server
 		app.Run();
-		// app.RunAsync(); //use this if you need to implement background processing in the main thread
 	}
 }
